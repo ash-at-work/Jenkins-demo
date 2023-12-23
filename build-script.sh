@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 podman build -t my-apache2 .
 if podman ps | grep my-running-app
