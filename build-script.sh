@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 podman build -t my-apache2 .
 if
