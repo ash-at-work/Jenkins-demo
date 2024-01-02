@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-podman build -t my-apache2 .
+podman build -t my-apache2 --build-arg https_proxy="http://192.168.135.70:3828" .
 # if
 # podman ps | grep my-running-app
 # then
